@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Strona główna</title>
+		<link rel="stylesheet" type="text/css" title="Default"
+href="styles.css"></link>
+	<link rel="alternate stylesheet" type="text/css" title="Alternate"
+href="alternate.css"></link>
+	<link rel="stylesheet" media="print" type="text/css" 
+href="printstyle.css"></link>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<script type="text/javascript" src="style.js"></script>
+	</head>
+	<body onload="pokazStyle()">
+		<div id="tytul">
+				HTML and  CSS - Projekt JiTW
+		</div>
+		
+		<div id="zmianastyli">
+			
+		</div>
+		
+		<div id="main">
+			<div id="pasek">
+				<h2>Menu</h2>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html">Ćwiczenie 1</a></li>
+						<li><a href="formatowanie.html">Ćwiczenie 2</a></li>
+						<li><a href="tabele.html">Ćwiczenie 3</a></li>
+						<li><a href="obraz.html">Ćwiczenie 4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="nawigacja">
+				<ul>
+					<li><a href="#uczenie">Uczenie maszynowe</a></li>
+					<li><a href="#answer1">Odpowiedź 1</a></li>
+					<li><a href="#answer2">Odpowiedź 2</a></li>
+					<li><a href="#answer3">Odpowiedź 3</a></li>
+					<li><a href="#answer4">Odpowiedź 4</a></li>
+				</ul>
+			</div>
+			
+			<div id="content">
+				<h1 id="uczenie">Uczenie maszynowe</h1>
+			<p>Jest to <strong>nauka interdyscyplinarna</strong> ze szczególnym uwzględnieniem takich dziedzin jak <b>informatyka, robotyka i&nbsp;statystyka</b>. Głównym celem jest praktyczne zastosowanie dokonań w dziedzinie <em>sztucznej inteligencji</em> do&nbsp;stworzenia automatycznego systemu potrafiącego doskonalić się przy pomocy zgromadzonego <i>doświadczenia</i> (czyli danych) i&nbsp;nabywania na&nbsp;tej podstawie nowej wiedzy.Uczenie maszynowe jest konsekwencją rozwoju idei sztucznej inteligencji i&nbsp;metod jej wdrażania praktycznego. Dotyczy rozwoju oprogramowania stosowanego zwłaszcza w&nbsp;innowacyjnych technologiach i&nbsp;przemyśle. Odpowiednie algorytmy mają pozwolić oprogramowaniu na zautomatyzowanie procesu pozyskiwania i&nbsp;analizy danych do ulepszania i&nbsp;rozwoju własnego systemu.
+<br/>Uczenie się może być rozpatrywane jako konkretyzacja algorytmu czyli dobór parametrów, nazywanych wiedzą lub umiejętnością. Służy do&nbsp;tego wiele typów metod pozyskiwania wiedzy oraz sposobów reprezentowania wiedzy. 
+			</p>
+			<p>
+			 Fragmenty kodu w code: <br/>
+			</p>
+			<pre>
+            <code>
+				public class GeneralClass{<br/>
+					public static void main(String[]args){<br/>
+						System.out.println("I love HTML"); <br/>
+						System.out.println("...and AGH"); <br/>
+					}<br/>
+				}<br/>
+			</code>
+			</pre>
+            Fragmenty kodu w samp:  <br/>
+			<pre>
+            <samp>
+				public class GeneralClass{<br/>
+					public static void main(String[]args){<br/>
+						System.out.println("I love HTML"); <br/>
+						System.out.println("...and AGH"); <br/>
+					}<br/>
+				}<br/> 
+            </samp>
+			</pre>
+			<p>
+            Równanie kwadratowe: <br/>
+            y = ax<sup>2</sup>+bx+c, gdzie a,b,c to stałe współczynniki rzeczywiste <br/>
+		&Delta;= b<sup>2</sup>-4*a*c <br/>
+		Jeśli &Delta; &gt; 0, to mamy 2 rozwiązania(x<sub>1</sub> i x<sub>2</sub>) rzeczywiste. <br/>
+		Jeśli &Delta; = 0, to mamy 1 rozwiązanie(x<sub>0</sub>) rzeczywiste. <br/>
+		Jeśli &Delta; &lt; 0, to nie ma rozwiązań rzeczywistych. 
+			</p>	
+			<h2 id="answer1">Jaka jest różnica między znacznikami &lt;i&gt; oraz &lt;em&gt;? Czy zawsze dają identyczne wyniki?</h2>
+			<p>
+			Znacznik &lt;i&gt; to zwykły tekst pochyły, reprezentuje stan fizyczny. Znacznik &lt;em&gt; to fizycznie również kursywa, jednakże niesie ze sobą pewne informacje co do ważności tekstu. W sytuacjach kiedy szczególnie zależy nam na zwróceniu uwagi czytelnika na jakieś informacje, a nie jedynie na określonym sformatowaniu czcionki, powinniśmy użyć właśnie tego znacznika. Nie zawsze dają identyczne wyniki, jednakże bardzo często zbliżone wizualnie. 
+			</p>
+			<h2 id="answer2">Jaka jest różnica między znacznikami &lt;b&gt; oraz &lt;strong&gt;? Czy zawsze dają identyczne wyniki </h2>
+			<p>
+				Analogicznie do odpowiedzi pierwszej. Znacznik &lt;b&gt; wyraża jedynie fizyczne pogrubienie tekstu, natomiast &lt;strong&gt; stosuje się, by podkreślić znaczenie danego słowa czy zdania. Może mieć różną formę wizualną, można go nadpisać w CSS. 
+			</p>
+			<h2 id="answer3">Jaka jest różnica między znacznikami &lt;code&gt; oraz &lt;samp&gt;? Czy zawsze dają identyczne wyniki?</h2>
+			<p>
+				&lt;code&gt; jest stosowany do kodów źródłowych programów komputerowych, natomiast &lt;samp&gt; do wyników działania programu. Nie muszą dawać identycznych wyników. 
+			</p>
+			<h2 id="answer4">Jaka jest różnica pomiędzy fragmentem strony sformatowanej tak: &lt;p&gt; …&lt;/p&gt;&lt;p&gt;…&lt;/p&gt; oraz fragmentem o następującej postaci: &lt;p&gt;…&lt;br/&gt;&lt;br/&gt;…&lt;/p&gt;?</h2>
+			<p>Formatowania nie różnią się od siebie wizualnie na stronie, jednakże uzywając pierwszej opcji tworzymy dwa paragrafy, a przy użyciu drugiej jest to jeden, ale przedzielony pustą linią.
+			</p>
+			<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  </p>
+			
+			<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+			</div>
+		</div>
+	</body>
+</html>

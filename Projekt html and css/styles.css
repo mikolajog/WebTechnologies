@@ -1,0 +1,348 @@
+body
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: darkgrey; 
+	color: purple; 
+}
+
+h1
+{
+	color: orange;
+	letter-spacing: 5px;
+}
+
+h2
+{
+	color: green; 
+}
+
+h3
+{
+	color: blue;
+}
+
+p
+{
+	text-indent: 5%;
+}
+
+table
+{
+	border: 4px solid blue;
+	border-collapse: collapse;
+	background: lightyellow;
+}
+
+tr, td
+{
+	border: 2px solid blue; 
+}
+
+thead
+{
+	font-size: 40px;
+	background: green;
+}
+tbody
+{
+	font-size: 25px;
+	
+}
+tfoot
+{
+	font-size: 30px;
+	background: pink;
+}
+
+.lp
+{
+	background: yellow; 
+}
+
+.results
+{
+	background: lightblue;
+}
+
+ol 
+{
+	list-style-type: upper-roman;
+}
+
+ol ol 
+{
+	list-style-type: lower-roman;
+}
+
+ol ol ol
+{
+	list-style-type: lower-greek;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#nawigacja ul 
+{
+	list-style: none;
+    padding-left: 0;
+	margin:0;
+}
+
+#nawigacja ul li{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 2px solid #555;
+	float: left;
+}
+#nawigacja  ul li a{
+    cursor: default;
+    display: block;
+    color: #000;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+#nawigacja  ul li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+
+#z1
+{
+	width: 40%;
+    height: auto;
+	float:left;
+	vertical-align:top;
+}
+
+#z2
+{
+	width: 40%;
+    height: auto;
+	float:right;
+	vertical-align:top;
+	
+}
+
+#tytul
+{
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	background: red;
+	clear:both;
+
+}
+
+#zmianastyli
+{
+	float: left;
+	width: 100px;
+}
+
+#main
+{
+	max-width: 1110px;
+	height: auto; 
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+    position: relative;
+}
+
+
+#pasek ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#pasek ul li{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 2px solid #555;
+}
+#pasek ul li a{
+    cursor: default;
+    display: block;
+    color: #000;
+    width: 146px;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+#pasek ul li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+#pasek
+{
+	background-color: lightblue;
+	position: absolute;
+	height: 100%;
+	min-width: 150px;
+	float: left;
+	
+}
+
+#menu
+{
+	width: 150px;
+	height: 100%;
+	float: left;
+	position: fixed; 
+}
+
+
+#nawigacja
+{
+
+	width: 960px;
+	background: orange;
+	position: relative;
+	float: right;
+	
+}
+
+#content
+{
+	max-width: 960px;
+	background: lightgreen;
+	position: relative;
+	float:right;
+	height: 100%; 
+
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+a
+{
+	cursor: default; 
+}
+
+ /* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
+#c1
+{
+	clear: both;
+}
+
+#c2
+{
+	clear: both;
+}
+
+#c3
+{
+	clear: both;
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+	
+#pasek 
+{
+    position: relative;
+    display: inline-block;
+	width: 100%;
+
+}
+
+#menu 
+{
+    display: none;
+    position: relative;
+    width: 100%; 
+    z-index: 1;
+}
+
+#pasek:hover #menu {
+    display: block;
+
+}
+	
+	#pasek ul li{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	width: 146px;
+    background-color: #f1f1f1;
+    border: 2px solid #555;
+}
+#pasek ul li a{
+    cursor: default;
+    display: block;
+    color: #000;
+    width: 146px;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+#pasek ul li a:hover{
+    background-color: #555;
+    color: white;
+}
+	
+	#content
+{
+	max-width: 1110px;
+	background: lightgreen;
+	position: relative;
+	height: 100%; 
+
+}
+
+	#nawigacja
+{
+
+	width: 100%;
+	background: orange;
+	position: relative;
+	
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+	
